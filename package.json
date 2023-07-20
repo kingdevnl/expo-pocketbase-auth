@@ -1,0 +1,28 @@
+{
+  "name": "expo-pocketbase-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "expo": "~49.0.3",
+    "expo-status-bar": "~1.6.0",
+    "expo-web-browser": "~12.3.2",
+    "pocketbase": "^0.15.3",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-sse": "^1.1.0",
+    "react-native-url-polyfill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.14",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
